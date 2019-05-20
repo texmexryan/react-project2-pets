@@ -28,7 +28,7 @@ const Add = props => {
       console.log(currentType.value)
       
         props.dispatch(addPet(currentName.value, 
-        currentType.value)) 
+        currentType.value));
 
         currentName.value = null
         currentType.value = ""

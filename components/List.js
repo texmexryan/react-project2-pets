@@ -12,8 +12,9 @@ const List = (props) => {
   return (
     <div>
     <br/>
-    PET DIRECTORY BELOW:
-    <ol>
+    <strong>PET DIRECTORY BELOW:</strong> <br/>
+    (refresh to show new pet)
+    <ol >
       {props.pets.map(p=><li key={p.id} > {p.name}   |   {p.type}
       </li>)}
 

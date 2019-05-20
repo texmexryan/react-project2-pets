@@ -3,11 +3,11 @@ import { ADD_PET, GET_PETS } from '../actions/actions'
 
 const initialState = {
     pets: [
-{
-"id": 1,
-"name": "nugget",
-"type": "dwarf hamster"
-}
+      {
+      "id": 1,
+      "name": "nugget",
+      "type": "dwarf hamster"
+      }
 ]}
 
 const reducer = (state = initialState, action) => {

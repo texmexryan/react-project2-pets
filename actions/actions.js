@@ -2,7 +2,7 @@ export const ADD_PET = "ADD_PET"
 export const GET_PETS = "GET_PETS"
 import axios from 'axios';
 
-const URL = "https://https://ammon-fakey.herokuapp.com/pets";
+const URL = "https://ammon-fakey.herokuapp.com/pets";
 
 export const fetchPets = () => {
   return dispatch => {
